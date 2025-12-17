@@ -2,7 +2,7 @@ package problem_Solving;
 
 public class Java_2 {
 	
-	static Boolean method(int num) {
+	static Boolean neon(int num) {
 		int sq = num * num;
 		int temp = num;
 		int sum = 0;
@@ -13,10 +13,21 @@ public class Java_2 {
 		}
 		return sum == temp;
 	}
+	static Boolean palindrome(int num) {
+		int temp = num;
+		int rev = 0;
+		while(num!=0) {
+			int rem = num%10;
+			rev = (rev * 10) + rem;
+			num/=10;
+		}
+		return temp == rev;
+	}
 
 	
 	public static void main(String[] args) {
-		System.out.println(method(9));
+		System.out.println("Is it a neon number: "+neon(9));
+		System.out.println("Is it palindrome: " +palindrome(1234321));
 		
 	}
 
