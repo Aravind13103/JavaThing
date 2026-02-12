@@ -1,6 +1,4 @@
 package com.college.model;
-import com.college.service.*;
-
 
 public class Student extends Person{
 	private int studentID;

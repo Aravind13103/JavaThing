@@ -12,15 +12,12 @@ public class Sumofdigits {
 	     }
 	     return sum;
    }
-	  
-	  
-	  
+	  	  
 	public static void main(String[] args) {
 		Sumofdigits obj = new Sumofdigits();
 	       int result = obj.sumOfDigits(336293);
 	       System.out.print(result);
-	      
-	    
+	      	    
 	}
 
 }
