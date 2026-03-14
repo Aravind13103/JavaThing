@@ -15,16 +15,28 @@ public class Arrays {
 //		}
 
 //		2.Create a String array of size 4. Add the names "John", "Alice", "Bob", and "Emma". 
-//  		Print all the elements using a foreach loop.\
-  		String[] array2 = new String[4];
-  		array2[0] = "John";
-  		array2[1] = "Alice";
-  		array2[2] = "Bob";
-  		array2[3] = "Emma";
-  		for(String name:array2){
-  			System.out.println(name);
-  		}
-  				
+//  		Print all the elements using a foreach loop.
+		
+//  		String[] array2 = new String[4];
+//  		array2[0] = "John";
+//  		array2[1] = "Alice";
+//  		array2[2] = "Bob";
+//  		array2[3] = "Emma";
+//  		for(String name:array2){
+//  			System.out.println(name);
+//  		}
+  			
+//		3. Create a double array of size 3. Add the values 10.5, 20.75, and 30.25. Print all the elements using a for loop.
+		
+		double[] arr = new double[3];
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
