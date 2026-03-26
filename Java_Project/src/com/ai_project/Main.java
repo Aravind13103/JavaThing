@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static final String API_KEY = "AIzaSyCEWrx7UbnYQEBCtv9OoPi2s7jt1m6zGjU";
+    private static final String API_KEY = "";
 
     public static void main(String[] args) {
 
